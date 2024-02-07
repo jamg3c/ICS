@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "l2Xz7W1xWyigFFzYf19gsu",
+    "name" : "d_Q723042",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Carpeta de Desarrollador de Jose Antonio Martinez Gomez\n",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-07T18:49:18.992Z",
+  "objectRefs" : [ ]
+}

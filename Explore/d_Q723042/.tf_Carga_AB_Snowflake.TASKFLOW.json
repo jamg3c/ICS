@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "aXro5KvuR0ocfPqnAm9CKC",
+    "name" : "tf_Carga_AB_Snowflake",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kSSHCwkNmumf6S3-gt-1767777-2024-02-04T17:09:33.164Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2024-02-07T18:49:18.992Z",
+  "objectRefs" : [ {
+    "id" : "iVCwkkZ76MHbwOrEE7Jsug",
+    "name" : "mt_Carga_AB_Snowflake",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010JXP0Z000000000003"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/d_Q723042"
+  } ]
+}

@@ -13,10 +13,10 @@
       <types1:CreatedBy>joseantonio_martinezgomez_BSAB_POC</types1:CreatedBy>
       <types1:CreationDate>2024-02-04T17:09:33Z</types1:CreationDate>
       <types1:ModifiedBy>joseantonio_martinezgomez_BSAB_POC</types1:ModifiedBy>
-      <types1:ModificationDate>2024-02-04T22:14:22Z</types1:ModificationDate>
+      <types1:ModificationDate>2024-02-08T09:38:51Z</types1:ModificationDate>
       <types1:PublicationStatus>published</types1:PublicationStatus>
       <types1:PublishedBy>joseantonio_martinezgomez_BSAB_POC</types1:PublishedBy>
-      <types1:PublicationDate>2024-02-04T22:14:25Z</types1:PublicationDate>
+      <types1:PublicationDate>2024-02-08T09:38:55Z</types1:PublicationDate>
       <types1:PublishedContributionId>project:/tf.tf_Carga_AB_Snowflake/tf_Carga_AB_Snowflake.tf.xml</types1:PublishedContributionId>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
@@ -154,5 +154,5 @@
       <types1:GUID>aXro5KvuR0ocfPqnAm9CKC</types1:GUID>
       <types1:DisplayName>tf_Carga_AB_Snowflake</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2024-02-07T18:49:18.384Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2024-02-08T20:23:33.264Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>

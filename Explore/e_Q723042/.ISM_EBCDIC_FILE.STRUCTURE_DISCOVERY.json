@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "8V5BKxSTeMfktUwV4wDECh",
+    "name" : "ISM_EBCDIC_FILE",
+    "type" : "STRUCTURE_DISCOVERY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010JXP30000000000006"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-08T09:00:41.332Z",
+  "objectRefs" : [ ]
+}

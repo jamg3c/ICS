@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "akjElhVaCpClqHsEONpLst",
+    "name" : "tf_prueba_snowflake",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "ci5rdsMkdypKwKB-gt-924622-2024-02-22T15:26:48.037Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2024-02-22T15:33:37.104Z",
+  "objectRefs" : [ {
+    "id" : "9sW2MTEj54fhl5cLAolj4Y",
+    "name" : "mt_prueba_snowflake",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010JXP0Z00000000000P"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/d_pruebas_abcd"
+  } ]
+}

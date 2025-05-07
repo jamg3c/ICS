@@ -1,0 +1,294 @@
+{
+  "content" : {
+    "description" : "DDDD",
+    "allowMaxFieldLength" : "false",
+    "bigIntConvertType" : "ONLY_BIGINT",
+    "documentType" : "MAPPING",
+    "name" : "Mapping2",
+    "links" : [
+      {
+        "link" : "Source -> Target"
+      }
+    ],
+    "transformations" : [
+      {
+        "createTime" : "2025-05-07T14:57:06.382Z",
+        "name" : "Source",
+        "advancedProperties" : [
+          {
+            "name" : "Tracing Level",
+            "value" : "Normal"
+          },
+          {
+            "name" : "Output is deterministic",
+            "value" : "false"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "false",
+            "name" : "DefaultGroup",
+            "output" : "true"
+          }
+        ],
+        "generateFilenamePort" : "false",
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "ID_PRUEBA"
+            },
+            "name" : "ID_PRUEBA",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 2,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DES_PRUEBA"
+            },
+            "name" : "DES_PRUEBA",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 100,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@fS2sDY9uCslcdx3gXE4pKx",
+          "connectionName" : "Snowflake_test",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "TOOLKIT",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "PRUEBAS/PUBLIC/MI_PRUEBA",
+            "label" : "PRUEBAS/PUBLIC/MI_PRUEBA",
+            "objectName" : "MI_PRUEBA",
+            "objectType" : "table",
+            "path" : "PRUEBAS/PUBLIC/MI_PRUEBA",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "ID_PRUEBA",
+                "fieldType" : "CONNECTOR",
+                "label" : "ID_PRUEBA",
+                "nativeName" : "ID_PRUEBA",
+                "nativeType" : "number",
+                "original" : "false",
+                "precision" : 2,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "MI_PRUEBA"
+                  }
+                ]
+              },
+              {
+                "name" : "DES_PRUEBA",
+                "fieldType" : "CONNECTOR",
+                "label" : "DES_PRUEBA",
+                "nativeName" : "DES_PRUEBA",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 100,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "MI_PRUEBA"
+                  }
+                ]
+              }
+            ],
+            "objectAttributes" : [
+              {
+                "name" : "tableType",
+                "value" : "TABLE"
+              }
+            ]
+          },
+          "readOptions" : {
+            "commandType" : 0,
+            "descending" : "false",
+            "queryAll" : "false",
+            "rowLimit" : 0,
+            "selectDistinct" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2025-05-07T14:57:06.382Z",
+        "name" : "Target",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "createTarget" : "false",
+        "fieldMappingMode" : "MANUAL",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "ID_PRUEBA_DOS"
+            },
+            "name" : "ID_PRUEBA_DOS",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 2,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DES_PRUEBA_DOS"
+            },
+            "name" : "DES_PRUEBA_DOS",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 100,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@fS2sDY9uCslcdx3gXE4pKx",
+          "connectionName" : "Snowflake_test",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "TOOLKIT",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "PRUEBAS/PUBLIC/MI_PRUEBA_DOS",
+            "label" : "PRUEBAS/PUBLIC/MI_PRUEBA_DOS",
+            "objectName" : "MI_PRUEBA_DOS",
+            "objectType" : "table",
+            "path" : "PRUEBAS/PUBLIC/MI_PRUEBA_DOS",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "ID_PRUEBA_DOS",
+                "fieldType" : "CONNECTOR",
+                "label" : "ID_PRUEBA_DOS",
+                "nativeName" : "ID_PRUEBA_DOS",
+                "nativeType" : "number",
+                "original" : "false",
+                "precision" : 2,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "MI_PRUEBA_DOS"
+                  }
+                ]
+              },
+              {
+                "name" : "DES_PRUEBA_DOS",
+                "fieldType" : "CONNECTOR",
+                "label" : "DES_PRUEBA_DOS",
+                "nativeName" : "DES_PRUEBA_DOS",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 100,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "MI_PRUEBA_DOS"
+                  }
+                ]
+              }
+            ],
+            "objectAttributes" : [
+              {
+                "name" : "tableType",
+                "value" : "TABLE"
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "false",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false"
+          }
+        },
+        "manualMappings" : {
+          "mappingList" : [
+            {
+              "fromFieldName" : "ID_PRUEBA",
+              "toField" : {
+                "name" : "ID_PRUEBA_DOS"
+              },
+              "fromFieldNames" : null
+            },
+            {
+              "fromFieldName" : "DES_PRUEBA",
+              "toField" : {
+                "name" : "DES_PRUEBA_DOS"
+              },
+              "fromFieldNames" : null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "vcsExportTime" : "2025-05-07 08:21:32 PDT"
+}

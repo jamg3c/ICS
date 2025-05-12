@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "1gpczvkWzmnbujbUjRNq2m",
+    "id" : "0T3GtDTy9JOcSdeENB8qGc",
     "name" : "m_Carga_AB_Snowflake",
     "type" : "DTEMPLATE",
     "metadata" : {
@@ -9,24 +9,24 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010JXP1700000000000H"
+        "repoHandle" : "010LT11700000000000O"
       },
       "contextAttributes" : [ {
         "name" : "id",
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "Descripción de prueba m_Carga_AB_Snowflake",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-02-08T20:23:33.407Z",
+  "updateTime" : "2025-05-12T10:22:13.780Z",
   "objectRefs" : [ {
-    "id" : "9w71igIuoYEd8sgxod3PeA",
-    "name" : "cnx_Snowflake_JAMG",
+    "id" : "fS2sDY9uCslcdx3gXE4pKx",
+    "name" : "Snowflake_test",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -34,7 +34,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010JXP0B000000000002"
+        "repoHandle" : "010LT10B000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -44,5 +44,7 @@
       }
     },
     "path" : "/SYS"
-  } ]
+  } ],
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
 }

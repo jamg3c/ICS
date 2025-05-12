@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "iVCwkkZ76MHbwOrEE7Jsug",
+    "id" : "9NyXvXxkFj9g3QnURg6HKO",
     "name" : "mt_Carga_AB_Snowflake",
     "type" : "MTT",
     "metadata" : {
@@ -9,24 +9,67 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010JXP0Z000000000003"
+        "repoHandle" : "010LT10Z000000000002"
       },
       "contextAttributes" : [ {
         "name" : "id",
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "Descripción prueba mt_Carga_AB_Snowflake",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-02-08T20:23:33.408Z",
+  "updateTime" : "2025-05-12T10:22:13.781Z",
   "objectRefs" : [ {
-    "id" : "9w71igIuoYEd8sgxod3PeA",
-    "name" : "cnx_Snowflake_JAMG",
+    "id" : "0eWYOOt1u8zhKggAZGp5OS",
+    "name" : "BLUETAB",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010LT12500000000001G"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "0T3GtDTy9JOcSdeENB8qGc",
+    "name" : "m_Carga_AB_Snowflake",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010LT11700000000000O"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Descripción de prueba m_Carga_AB_Snowflake",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/d_Q723042"
+  }, {
+    "id" : "fS2sDY9uCslcdx3gXE4pKx",
+    "name" : "Snowflake_test",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -34,7 +77,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010JXP0B000000000002"
+        "repoHandle" : "010LT10B000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -44,48 +87,7 @@
       }
     },
     "path" : "/SYS"
-  }, {
-    "id" : "1gpczvkWzmnbujbUjRNq2m",
-    "name" : "m_Carga_AB_Snowflake",
-    "type" : "DTEMPLATE",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010JXP1700000000000H"
-      },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
-      "additionalInfo" : {
-        "description" : "",
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/Explore/d_Q723042"
-  }, {
-    "id" : "01oTqXRsKS7gSx2MC5oHUq",
-    "name" : "RNTDELL000908",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010JXP25000000000003"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  } ]
+  } ],
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
 }

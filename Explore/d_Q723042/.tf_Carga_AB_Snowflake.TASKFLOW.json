@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "aXro5KvuR0ocfPqnAm9CKC",
+    "id" : "jHT9kMpOzexfoV38I7K3kr",
     "name" : "tf_Carga_AB_Snowflake",
     "type" : "TASKFLOW",
     "metadata" : {
@@ -9,20 +9,20 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "kSSHCwkNmumf6S3-gt-1767777-2024-02-04T17:09:33.164Z::tf.xml"
+        "repoHandle" : "VDov6or3rp3yD7t-gt-510302-2025-05-07T15:11:23.758Z::tf.xml"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "",
+        "description" : "Descripción prueba tf_Carga_AB_Snowflake",
         "contentType" : "application/json; charset=utf-8",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "xml",
-  "updateTime" : "2024-02-08T20:23:33.408Z",
+  "updateTime" : "2025-05-12T10:22:13.782Z",
   "objectRefs" : [ {
-    "id" : "iVCwkkZ76MHbwOrEE7Jsug",
+    "id" : "9NyXvXxkFj9g3QnURg6HKO",
     "name" : "mt_Carga_AB_Snowflake",
     "type" : "MTT",
     "metadata" : {
@@ -31,18 +31,20 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010JXP0Z000000000003"
+        "repoHandle" : "010LT10Z000000000002"
       },
       "contextAttributes" : [ {
         "name" : "id",
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "Descripción prueba mt_Carga_AB_Snowflake",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     },
     "path" : "/Explore/d_Q723042"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }

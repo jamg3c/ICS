@@ -1,34 +1,30 @@
 <aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
                    xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
    <types1:Item>
-      <types1:EntryId>kSSHCwkNmumf6S3-gt-1767777-2024-02-04T17:09:33.164Z::tf.xml</types1:EntryId>
-      <types1:Name>tf_Carga_AB_Snowflake</types1:Name>
+      <types1:EntryId>VDov6or3rp3yD7t-gt-510302-2025-05-07T15:11:23.758Z::tf.xml</types1:EntryId>
+      <types1:Name>tf_Carga_AB_Snowflake-1</types1:Name>
       <types1:MimeType>application/xml+taskflow</types1:MimeType>
-      <types1:Description/>
+      <types1:Description>Descripción prueba tf_Carga_AB_Snowflake</types1:Description>
       <types1:AppliesTo/>
       <types1:Tags/>
       <types1:VersionLabel>1.0</types1:VersionLabel>
       <types1:State>CURRENT</types1:State>
       <types1:ProcessGroup/>
-      <types1:CreatedBy>joseantonio_martinezgomez_BSAB_POC</types1:CreatedBy>
-      <types1:CreationDate>2024-02-04T17:09:33Z</types1:CreationDate>
-      <types1:ModifiedBy>joseantonio_martinezgomez_BSAB_POC</types1:ModifiedBy>
-      <types1:ModificationDate>2024-02-08T09:38:51Z</types1:ModificationDate>
-      <types1:PublicationStatus>published</types1:PublicationStatus>
-      <types1:PublishedBy>joseantonio_martinezgomez_BSAB_POC</types1:PublishedBy>
-      <types1:PublicationDate>2024-02-08T09:38:55Z</types1:PublicationDate>
-      <types1:PublishedContributionId>project:/tf.tf_Carga_AB_Snowflake/tf_Carga_AB_Snowflake.tf.xml</types1:PublishedContributionId>
-      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:CreatedBy>JoseAntonioprod</types1:CreatedBy>
+      <types1:CreationDate>2025-05-07T15:11:24Z</types1:CreationDate>
+      <types1:ModifiedBy>JoseAntonioprod</types1:ModifiedBy>
+      <types1:ModificationDate>2025-05-12T10:20:05Z</types1:ModificationDate>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
       <types1:Entry>
          <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
                    xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
                    xmlns:list="urn:activevos:spi:list:functions"
                    displayName="tf_Carga_AB_Snowflake"
-                   name="tf_Carga_AB_Snowflake"
+                   name="tf_Carga_AB_Snowflake-1"
                    overrideAPIName="false">
             <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd">file2.param</parameterSet>
             <appliesTo/>
-            <description/>
+            <description>Descripción prueba tf_Carga_AB_Snowflake</description>
             <tags/>
             <generator>Informatica Process Designer 11</generator>
             <input>
@@ -43,7 +39,7 @@
                   <options>
                      <option name="failOnNotRun">false</option>
                      <option name="failOnFault">false</option>
-                     <option name="referenceTo">$po:mt-Carga-AB-Snowflake</option>
+                     <option name="referenceTo">$po:mt-Carga-AB-Snowflake-9NyXvXxkFj9g3QnURg6HKO</option>
                   </options>
                </field>
             </tempFields>
@@ -55,6 +51,10 @@
                   </allowedUsers>
                </rest>
             </deployment>
+            <extData>
+               <nvpair name="treatEmptyStringAsNotNull">false</nvpair>
+               <nvpair name="treatEmptyObjectListAsArray">false</nvpair>
+            </extData>
             <flow id="a">
                <start id="b">
                   <link id="ls7rcb5s" targetId="ls7rcb6g"/>
@@ -68,12 +68,13 @@
                         <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
                         <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
                         <parameter name="Task Name" source="constant" updatable="true">mt_Carga_AB_Snowflake</parameter>
-                        <parameter name="GUID" source="constant" updatable="true">iVCwkkZ76MHbwOrEE7Jsug</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">9NyXvXxkFj9g3QnURg6HKO</parameter>
                         <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
                         <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
                         <parameter name="taskField" source="nested">
-                           <operation source="field" to="mt-Carga-AB-Snowflake">temp.mt_Carga_AB_Snowflake</operation>
-                           <operation source="constant" to="mt-Carga-AB-Snowflake/inout[1]/P_s_valor_uno">{$input.P_s_valor_uno}</operation>
+                           <operation source="field" to="mt-Carga-AB-Snowflake-9NyXvXxkFj9g3QnURg6HKO">temp.mt_Carga_AB_Snowflake</operation>
+                           <operation source="constant"
+                                      to="mt-Carga-AB-Snowflake-9NyXvXxkFj9g3QnURg6HKO/inout[1]/P_s_valor_uno">{$input.P_s_valor_uno}</operation>
                         </parameter>
                      </serviceInput>
                      <serviceOutput>
@@ -115,9 +116,9 @@
             </flow>
             <dependencies>
                <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
-                              displayName="mt-Carga-AB-Snowflake"
+                              displayName="mt-Carga-AB-Snowflake-9NyXvXxkFj9g3QnURg6HKO"
                               isByCopy="true"
-                              name="mt-Carga-AB-Snowflake">
+                              name="mt-Carga-AB-Snowflake-9NyXvXxkFj9g3QnURg6HKO">
                   <description/>
                   <tags/>
                   <detail>
@@ -151,8 +152,8 @@
             </dependencies>
          </taskflow>
       </types1:Entry>
-      <types1:GUID>aXro5KvuR0ocfPqnAm9CKC</types1:GUID>
+      <types1:GUID>jHT9kMpOzexfoV38I7K3kr</types1:GUID>
       <types1:DisplayName>tf_Carga_AB_Snowflake</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2024-02-08T20:23:33.264Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2025-05-12T10:22:13.415Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>

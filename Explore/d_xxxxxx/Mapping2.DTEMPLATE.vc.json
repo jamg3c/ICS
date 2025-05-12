@@ -25,6 +25,24 @@
           "typeSystem" : "TOOLKIT",
           "connectionType" : "Snowflake Cloud Data Warehouse V2"
         }
+      },
+      {
+        "input" : "true",
+        "output" : "false",
+        "precision" : 0,
+        "scale" : 0,
+        "allowRuntimeOverride" : "true",
+        "expressionVariable" : "false",
+        "label" : "$ParamTableNamePrefix_TS",
+        "name" : "ParamTableNamePrefix_TS",
+        "defaultValue" : {
+          "valueLiteral" : "valor_prueba"
+        },
+        "anonymousType" : {
+          "subType" : "TOOLKIT_CCI",
+          "typeSystem" : "TOOLKIT",
+          "connectionType" : "Snowflake Cloud Data Warehouse V2"
+        }
       }
     ],
     "transformations" : [
@@ -77,7 +95,7 @@
         ],
         "dataAdapter" : {
           "connectionId$" : {
-            "name" : "ParamTableNamePrefix_TS_nombretablaorigen"
+            "name" : "ParamTableNamePrefix_TS"
           },
           "excludeDynamicFileNameField" : "false",
           "objectType" : "SINGLE",
@@ -308,5 +326,5 @@
       }
     ]
   },
-  "vcsExportTime" : "2025-05-12 06:50:52 PDT"
+  "vcsExportTime" : "2025-05-12 06:53:45 PDT"
 }
